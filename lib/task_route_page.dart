@@ -28,7 +28,7 @@ class TaskRouteState extends State<TaskRoute> {
   @override
   void initState() {
     _stream = EsptouchSmartconfig.run(
-        ssid: widget.ssid,
+        ssid: "atmevscombr",
         bssid: widget.bssid,
         password: widget.password,
         deviceCount: widget.deviceCount,
